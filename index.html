@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WattsProtect™ A²SC — Edição Brasil Soberano</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --verde:#009739;
+    --amarelo:#FFCC29;
+    --azul:#002776;
+    --branco:#FFFFFF;
+    --texto:#f1f1f1;
+    --painel:#003366;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:linear-gradient(135deg,var(--azul) 60%,var(--verde) 90%);color:var(--texto);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.55}
+  header{position:sticky;top:0;background:linear-gradient(90deg,var(--verde) 0%,var(--amarelo) 50%,var(--azul) 100%);color:#fff;padding:18px;text-align:center;box-shadow:0 3px 6px rgba(0,0,0,.3)}
+  header h1{margin:0;font-size:26px;font-weight:800;text-shadow:1px 1px 3px rgba(0,0,0,.4)}
+  header h2{margin:4px 0 0;font-size:16px;font-weight:400;opacity:0.9}
+  main{max-width:1100px;margin:0 auto;padding:30px}
+  section{background:rgba(0,0,0,0.25);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:22px;margin:16px 0;backdrop-filter:blur(6px)}
+  h2{font-size:22px;border-left:5px solid var(--amarelo);padding-left:10px;margin-top:0;color:var(--amarelo)}
+  h3{font-size:17px;color:var(--amarelo);margin-top:12px}
+  p.lede{font-size:18px;color:#fff;font-weight:400;margin:6px 0 14px}
+  pre{background:rgba(0,0,0,0.5);padding:14px;border-radius:10px;overflow:auto;font-family:ui-monospace,Consolas,monospace;font-size:13px;color:#dff6ff;border:1px solid rgba(255,255,255,0.2)}
+  code{font-family:ui-monospace,Consolas,monospace}
+  table{width:100%;border-collapse:collapse;margin-top:10px}
+  th,td{border:1px solid rgba(255,255,255,0.3);padding:10px;vertical-align:top}
+  th{background:rgba(255,255,255,0.15);color:var(--amarelo)}
+  td{background:rgba(255,255,255,0.05)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:rgba(255,255,255,0.1);border-radius:10px;padding:14px;border:1px solid rgba(255,255,255,0.15)}
+  a{color:var(--amarelo)}
+  footer{text-align:center;padding:20px 0;color:#eaeaea;font-size:14px;border-top:1px solid rgba(255,255,255,0.2);margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🇧🇷 WattsProtect™ A²SC — Edição Brasil Soberano</h1>
+  <h2>Prova, Soberania e Integridade Digital</h2>
+</header>
+<main>
+  <section>
+    <h2>⚖️ Manifesto</h2>
+    <p class="lede"><strong>WattsProtect™ A²SC</strong> é a cadeia viva de custódia que transforma cada decisão de IA em evidência. Segurança protege. Prova lembra. Soberania exige as duas.</p>
+    <p>Desenvolvido para ambientes soberanos e críticos, o A²SC sela o comportamento dos sistemas em <strong>atestados criptográficos</strong> verificáveis — sem telemetria, sem vazamento de dados, apenas verdade matemática. Cada evento se torna uma prova auditável, cada política um contrato vivo.</p>
+  </section>
+
+  <section>
+    <h2>🔹 Estrutura de Custódia A²SC</h2>
+    <div class="grid">
+      <div class="card"><strong>1) Evento</strong><br/>Captura do gatilho ou decisão do sistema em tempo real.</div>
+      <div class="card"><strong>2) Política</strong><br/>Regras OPA/Rego aplicadas antes da execução.</div>
+      <div class="card"><strong>3) Atentação</strong><br/>TPM/TEE valida integridade do ambiente.</div>
+      <div class="card"><strong>4) Encadeamento</strong><br/>Hashes Merkle vinculam cada registro ao anterior.</div>
+      <div class="card"><strong>5) Pacote de Prova</strong><br/>Evento + política + assinatura selados.</div>
+      <div class="card"><strong>6) Cofre Imutável</strong><br/>Armazenamento forense auditável e soberano.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>💡 Casos de Uso</h2>
+    <table>
+      <thead><tr><th>Setor</th><th>Aplicação</th></tr></thead>
+      <tbody>
+        <tr><td>🏛️ Governo</td><td>Auditoria de soberania digital, cadeia de custódia e transparência regulatória.</td></tr>
+        <tr><td>🏭 Indústria</td><td>Verificação de calibração, redução de deriva e rastreabilidade ISO.</td></tr>
+        <tr><td>💊 Farmacêutico</td><td>Compliance 21 CFR Part 11 e validação preditiva de processos críticos.</td></tr>
+        <tr><td>🧠 Inteligência Artificial</td><td>Proveniência de modelos, atestação de inferência e integridade contextual.</td></tr>
+        <tr><td>📱 Mobilidade Segura</td><td>Integração com plataformas soberanas como AphyOS (Apostrophy).</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>💻 Código Exemplar</h2>
+    <h3>policy.yaml</h3>
+    <pre><code># CAL-APPROVAL-001
+versão: 1
+política_id: CAL-APPROVAL-001
+descrição: "Mudanças de calibração exigem treinamento, SoD e deriva dentro da tolerância."
+controles:
+  - id: TREINAMENTO_VALIDO
+    requer: ator.treinamento.calibracao == true
+  - id: SOD_ENFORCADA
+    requer: ator.id != solicitacao.solicitado_por
+  - id: LIMITE_DERIVA
+    requer: metricas.deriva_ppm <= parametros.max_ppm
+parametros:
+  max_ppm: 25
+aprovações:
+  - papel: "Supervisor"
+    mfa: true</code></pre>
+
+    <h3>gate.rego</h3>
+    <pre><code>pacote portoes.calibracao
+padrão permitir = falso
+negar[msg] {
+  deriva_futura := entrada.simulacao.deriva_ppm
+  deriva_futura &gt; entrada.parametros.max_ppm
+  msg := sprintf("deriva prevista acima do limite: %v &gt; %v", [deriva_futura, entrada.parametros.max_ppm])
+}
+permitir { count(negacao) == 0 }</code></pre>
+  </section>
+
+  <section>
+    <h2>📩 Contato</h2>
+    <p><strong>Andre Jason Watts</strong><br/>
+    <a href="mailto:andrewatts23@gmail.com">andrewatts23@gmail.com</a> | +1 (732) 853‑4977<br/>
+    São Paulo 🇧🇷 • OpenAI DevDay 2025</p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Andre Jason Watts — WattsProtect™ A²SC | “Feito no Brasil, para a soberania global.”
+</footer>
+</body>
+</html>
